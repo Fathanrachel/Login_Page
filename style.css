@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -50,7 +50,7 @@ body{
     background-color: #512da8;
     color: #fff;
     font-size: 12px;
-    padding: 10px 45px ;
+    padding: 10px 45px;
     border: 1px solid transparent;
     border-radius: 8px;
     font-weight: 600;
@@ -84,22 +84,6 @@ body{
     border-radius: 8px;
     width: 100%;
     outline: none;
-}
-
-.form-container .sign-up[type="password"] {
-    padding-right: 30px; /* Mengatur ruang di sebelah kanan input untuk ikon */
-}
-
-.form-container .sign-up[type="password"] + .fa-eye {
-    position: absolute;
-    right: 10px;
-    top: 70%;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-
-.form-container .sign-up[type="password"] + .fa-eye:hover {
-    color: #512da8; /* Warna ikon saat dihover */
 }
 
 .form-container{
@@ -182,8 +166,8 @@ body{
     background: linear-gradient(to right, #5c6bc0, #512da8);
     color: #fff;
     position: relative;
-    height: 100%;
     left: -100%;
+    height: 100%;
     width: 200%;
     transform: translateX(0);
     transition: all 0.6s ease-in-out;
@@ -206,12 +190,10 @@ body{
     top: 0;
     transform: translateX(0);
     transition: all 0.6s ease-in-out;
-
 }
 
 .toggle-left{
     transform: translateX(-200%);
-    
 }
 
 .container.active .toggle-left{
@@ -221,7 +203,6 @@ body{
 .toggle-right{
     right: 0;
     transform: translateX(0);
-
 }
 
 .container.active .toggle-right{
